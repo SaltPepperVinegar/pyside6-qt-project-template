@@ -58,12 +58,6 @@ From the project root (with the virtualenv activated):
 python -m src.app.app
 ```
 
-Depending on how your tooling is configured, you can also use the script name defined in `pyproject.toml`:
-
-```bash
-python -m app
-```
-
 The entrypoint is `src/app/app.py`. The `main()` function will:
 
 - initialize logging via `setup_logging()`
